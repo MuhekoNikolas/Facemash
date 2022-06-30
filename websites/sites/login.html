@@ -1,0 +1,45 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Log in</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+  </head>
+
+  <body>
+
+    <div class="backContainer"></div>
+    
+    <div id="loginContainer" class="mainContainers">
+
+      <h1 class="loginOrSignupTitle">Log in!</h1>
+
+      <div id="loginForm" class="forms">
+        <input type="text" id="usernameInput" class="loginInputs" placeholder="username" required autofocus maxlength="20" minlength="2"></input>
+        <input type="password" id="passwordInput" class="loginInputs" placeholder="password" required></input>
+
+        <p class="login-notifications"> Hello we are trying to log in ok! </p>
+        <input class="loginButton" onclick="verifyCridentials()" type="submit" value="Log in"></input>
+
+        <div class="differentOptionContainer">
+          <p class="optionAbout"> You don't have an account?</p>
+          <button class="signupOptionButton" onclick="window.location.href= '/signup'">Sign up!</button>
+        </div>
+
+      </div>
+      
+    </div>
+    
+    
+  </body>
+
+  <script src="../js/loginCookie.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/login.js"></script>
+  
+</html>

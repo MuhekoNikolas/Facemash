@@ -1,0 +1,43 @@
+
+
+
+
+
+*{
+  font-family:monospace,monospace;
+}
+
+
+button:hover{
+  cursor:pointer;
+}
+h1{
+  font-family:monospace,monospace;
+  color:orange;
+}
+
+.mainContainers{
+  position:fixed;
+  top:0px;
+  left:0px;
+
+  width:100vw;
+  height:100vh;
+  
+  overflow:hidden;
+  overflow-y:auto;
+}
+
+
+.backContainer{
+  position:fixed;
+  top:-100vh;
+  left:-100vw;
+  
+  width:400vw;
+  height:400vh;
+
+  z-index:-100;
+
+  background:#1c1c1c;
+}

@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/signup.css">
+
+    <script src="https://kit.fontawesome.com/49ac55f315.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div class="backContainer"></div>
+    
+    <div id="signupContainer" class="mainContainers">
+
+      <h1 class="loginOrSignupTitle">Sign Up!</h1>
+
+      <div id="signUpForm" class="forms">
+        <input type="email" id="emailInputSignup" class="signupInputs" placeholder="email"></input>
+        <input type="text" id="usernameInputSignup" class="signupInputs" placeholder="username"></input>
+        <input type="password" id="passwordInputSignup" class="signupInputs" placeholder="password"></input>
+
+        <p class="signup-notifications"> Hello we are trying to sign you in ok! </p>
+        <input class="signupButton" onclick="validateCridentials()" type="submit" value="Sign up"></input>
+
+        <div class="differentOptionContainer">
+          <p class="optionAbout"> You already have an account?</p>
+          <button class="loginOptionButton" onclick="window.location.href= '/login'">Log in!</button>
+        </div>
+
+      </div>
+      
+    </div>
+    
+    
+  </body>
+
+  <script src="../js/signupCookie.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/signup.js"></script>
+  
+</html>

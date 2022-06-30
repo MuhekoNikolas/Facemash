@@ -1,0 +1,151 @@
+
+
+
+#signupContainer{
+
+  background:#1c1c1c;
+}
+
+
+.loginOrSignupTitle{
+  position:relative;
+  margin-top:200px;
+
+  text-align:center;
+  
+  
+  font-size:5rem;
+
+  
+}
+
+
+input{
+  display:block;
+}
+
+.signupInputs{
+  width:400px;
+  height:75px;
+  margin:0px auto;
+  margin-top:80px;
+
+  color:blue;
+  font-size:30px;
+  
+
+  border:none;
+  border-radius:30px;
+  
+}
+
+#emailInputSignup{
+  position:relative;
+  
+  width:500px;
+}
+
+#usernameInputSignup{
+  position:relative;
+  
+}
+
+#passwordInputSignup{
+  position:relative;
+  
+  width:450px;
+  
+}
+
+
+
+.signupInputs::placeholder{
+  color:cyan;
+
+  font-size:30px;
+
+  text-align:center;
+
+  font-family:monospace,monospace;
+}
+
+
+.signup-notifications{
+  position:relative;
+  
+  text-align:center;
+
+  color:green;
+  
+  font-size:30px;
+  font-weight:900;
+
+  display:block;
+  
+}
+
+
+
+.signupButton{
+  position:relative;
+  
+  display:block;
+  margin:0px auto;
+  margin-top:40px;
+
+  width:250px;
+  height:80px;
+
+  font-size:40px;
+  font-weight:900;
+  color:blue;
+
+  border-radius:50px;
+
+  background:orange;
+
+
+  
+  
+}
+
+
+.differentOptionContainer{
+  position:relative;
+  
+  width:90%;
+  height:200px;
+  
+  margin:0px auto;
+  margin-top:100px;
+  
+  background:ghostwhite;
+}
+
+.optionAbout{
+  position:relative;
+
+  font-size:40px;
+  font-weight:900;
+
+  text-align:center;
+}
+
+.loginOptionButton{
+  position:relative;
+  
+  display:block;
+  margin:0px auto;
+  margin-top:40px;
+
+  width:170px;
+  height:60px;
+
+  font-size:25px;
+  font-weight:900;
+  color:orange;
+
+  border-radius:50px;
+
+  background:blue;
+}
