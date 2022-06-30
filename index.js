@@ -2,7 +2,7 @@
 
 dataStore = require("nedb")
 express = require("express")
-bcrypt = require("bcrypt")
+bcrypt = require("bcryptjs")
 bodyParser = require("body-parser")
 middlewares = require("./res/middlewares.js")
 
