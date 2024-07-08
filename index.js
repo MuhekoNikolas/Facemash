@@ -122,11 +122,6 @@ app.post("/api/validateCredentials",checkDatabasePost, (req,resp)=>{
 })
 
 
-
-
-
-
-
 app.post("/api/validateLogin",oneSecondPause, (req,resp)=>{
   
   if(resp.headersSent){return}
@@ -140,5 +135,5 @@ app.post("/api/validateLogin",oneSecondPause, (req,resp)=>{
 
 
 app.listen(8080, ()=>{
-  console.log("Running")
+  console.log(`Running http://localhost:8080`)
 })
